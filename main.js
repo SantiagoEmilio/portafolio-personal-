@@ -1,4 +1,4 @@
-import { navBarDiv } from "./componentes/navBar/navBar";
+import { navBarDiv } from "./componentes/navBar/navBar.js";
 
 let DOM = document.querySelector("#root");
 
