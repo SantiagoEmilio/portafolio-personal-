@@ -1,26 +1,53 @@
 import { header } from "../header/header.js"
+import { dataProyecto } from "../../Data/Data.js";
 
 function proyectos(){
+
     let section = document.createElement('section');
-    section.appendChild(header())
-    section.appendChild(item())
-    section.className = "section-proyectos";
-    
+    section.className = 'section-proyectos';
+    section.appendChild(header());
+    section.appendChild(listaProyectos());
 
 
     return section;
 }
 
+function listaProyectos(){
+    let div = document.createElement('div');
+    div.className = "lista-proyectos";
 
+    dataProyecto.forEach((proyecto)=>{
+        div.appendChild( item(proyecto.nombre,dataProyecto.github,dataProyecto.githubWeb,dataProyecto.stack));
+    });
 
-
-
-function item(){
-   let div = document.createElement('div');
-   div.innerText = "item listo"
-   div.className = "item";
-
-   return div;
+    return div;
 }
 
+
+
+function item(texto,github,githubPage,stacks){
+    let div = document.createElement('div');
+    div.className = "div-item"; 
+    
+    let a = document.createElement('a');
+    a.className = "link-github-page"
+    a.href = githubPage;
+    a.innerText = "githubPage";
+    div.appendChild(a);
+
+    let stack = document.createElement('div');
+    stack.innerText = "[js, CSS, HTML]";
+    div.appendChild(stack);
+
+    let btnGithub = document.createElement('a');
+    btnGithub.className = "btn-github"
+    btnGithub.href = github;
+    btnGithub.innerText = "Github" 
+    div.appendChild(btnGithub);
+
+    return div;
+}
+
+
 export {proyectos}
+
