@@ -1,21 +1,19 @@
-.nav-bar{
+.nav-bar {
     height: 100vh;
-    border-right: 1px solid black;
+    border-right: 1px solid gray;
 }
-
 
 .nav-bar-div {
-    border: 1px solid black;
+    border-right: 1px solid gray;
     padding: 1rem;
+    gap: 1rem;
 
-display: grid;
-grid-template-columns: 5rem auto;
-gap: 1rem;
-
-align-items: center;
+    display: grid;
+    grid-template-columns: 5rem auto;
+    
+    align-items: center;
 }
 
-.nav-bar-div .img-log{
+.nav-bar-div .img-logo {
     width: 4rem;
-    background-color: black;
 }

@@ -1,11 +1,15 @@
 import { navBarDiv } from "./componentes/navBar/navBar.js";
 import { proyectos } from "./componentes/PROYECTOS /proyectos.js";
 
+
+/* COMPONENTES DE LA PÁGINA */ 
+
 let DOM = document.querySelector("#root");
 
+/* navBar */
 let navBar = document.createElement('section');
 navBar.className = "nav-bar";
-navBar.appendChild = (navBarDiv);
+navBar.appendChild(navBarDiv);
 DOM.appendChild(navBar);
 
 let proyect = document.createElement('section');

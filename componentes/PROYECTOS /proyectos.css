@@ -1,33 +1,21 @@
-.sectionHeader {
-    padding: 0.5rem;
-    height: 100%;
-    max-height: 6rem;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.section-proyectos{
+    padding: 1.5rem 2rem;
 }
 
 .div-item {
-    border-bottom: 1 px solid palegreen;
+    
+    border-bottom: 1px solid gray;
     padding: 1rem;
 
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
 }
-.linkGitHUbPage {
-    text-decoration: nome;
-}
-.btnGitHub {
-    width: 100%;
-    max-width: 8rem;
-    background-color: black;
-    color: white;
-    padding: 0.5rem 1.5rem;
-    border-radius: 3px;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.link-github-page {
+    text-decoration: none;
+}
+
+.btn-github {
+    border: 1px solid black;
+    
 }
