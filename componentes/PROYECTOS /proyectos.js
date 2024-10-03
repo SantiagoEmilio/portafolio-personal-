@@ -1,5 +1,5 @@
 import { header } from "../header/header.js"
-import { dataProyecto } from "../../Data/Data.js";
+import { dataProyectos } from "../../Data/Data.js";
 
 function proyectos(){
 
@@ -16,8 +16,8 @@ function listaProyectos(){
     let div = document.createElement('div');
     div.className = "lista-proyectos";
 
-    dataProyecto.forEach((proyecto)=>{
-        div.appendChild( item(proyecto.nombre,dataProyecto.github,dataProyecto.githubWeb,dataProyecto.stack));
+    dataProyectos.forEach((proyecto)=>{
+        div.appendChild( item(proyecto.nombre));
     });
 
     return div;
@@ -50,4 +50,3 @@ function item(texto,github,githubPage,stacks){
 
 
 export {proyectos}
-
