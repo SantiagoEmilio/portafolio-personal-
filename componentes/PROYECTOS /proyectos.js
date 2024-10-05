@@ -8,6 +8,7 @@ function proyectos(){
     sectionP.appendChild(header());
     sectionP.appendChild(listaProyectos());
 
+    return sectionP;
 }
 
 
@@ -66,5 +67,4 @@ function item(nombre, descripcion, githubPage, github, stacks){
 
 
 export { proyectos }
-
 
