@@ -1,0 +1,141 @@
+.componentes-Herramientas {
+    width: 100%;
+    max-width: 26rem;
+    height: 35rem;
+    margin-top: 0.7rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.div-herramienta {
+    width: 100%;
+    max-width: 27rem;
+    height: 4rem;
+    margin-top: 1.2rem;
+    border-radius: 3px;
+    border: 1px solid rgb(160, 158, 158);
+    padding: 2rem 1rem;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+.div-herramienta2 {
+    width: 100%;
+    max-width: 27rem;
+    height: 4rem;
+    border-radius: 3px;
+    margin-top: 1.2rem;
+    border: 1px solid rgb(160, 158, 158);
+    padding: 2rem 1rem;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+.div-herramienta3 {
+    width: 100%;
+    max-width: 27rem;
+    height: 4rem;
+    border-radius: 3px;
+    border: 1px solid rgb(160, 158, 158);
+    padding: 2rem 1rem;
+    margin-top: 1.2rem;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+.div-herramienta4 {
+    width: 100%;
+    max-width: 27rem;
+    height: 4rem;
+    margin-top: 1.2rem;
+    border-radius: 3px;
+    border: 1px solid rgb(160, 158, 158);
+    padding: 2rem 1rem;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+.div-herramienta5 {
+    width: 100%;
+    max-width: 27rem;
+    height: 4rem;
+    border-radius: 3px;
+    margin-top: 1.2rem;
+    border: 1px solid rgb(160, 158, 158);
+    padding: 2rem 1rem;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+.div-herramienta6 {
+    width: 100%;
+    max-width: 27rem;
+    height: 4rem;
+    margin-top: 1.2rem;
+    border-radius: 3px;
+    border: 1px solid rgb(160, 158, 158);
+    padding: 2rem 1rem;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+.div-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 1px;
+    background-color: blue;
+}
+
+.div-icon2 {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 1px;
+    background-color: rgb(2, 141, 150);
+}
+
+.div-icon3 {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 1px;
+    background-color: orange;
+}
+
+.div-icon4 {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 1px;
+    background-color: green;
+}
+
+.div-icon5 {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 1px;
+    background-color: red;
+}
+
+.div-icon6 {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 1px;
+    background-color: black;
+}
+
+.tit-herramienta {
+    margin-left: 0.7rem;
+    color: rgb(63, 63, 63);
+}
